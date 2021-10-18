@@ -1,0 +1,308 @@
+    body {
+        direction: rtl;
+        font-family: 'vazir';
+    }
+    
+    * {
+        box-sizing: border-box;
+    }
+    
+    .container {
+        width: 85vw;
+        margin: 1vw auto;
+        padding: 1em;
+        display: flex;
+        flex-flow: row nowrap;
+    }
+    
+    .underline {
+        text-decoration: underline #fd6746;
+    }
+    
+    .navbar {
+        width: 90%;
+        margin-right: 4em;
+        flex-wrap: nowrap;
+        justify-content: flex-end;
+    }
+    
+    .navbar ul {
+        list-style: none;
+    }
+    
+    .navbar ul li a {
+        border-right: 1px solid rgb(236 109 81);
+        text-align: right;
+        /* font-size: small; */
+        font-weight: bold;
+        color: rgb(161, 157, 157);
+    }
+    
+    .navbar ul li a:hover {
+        color: rgb(42, 42, 42);
+    }
+    
+    .navbar ul li:first-of-type a {
+        border: none;
+    }
+    
+    .eshterak {
+        justify-content: center;
+        column-gap: 5em;
+        align-items: center;
+    }
+    
+    .desc {
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: space-around;
+        row-gap: .5em;
+    }
+    
+    .desc::before {
+        content: url(./Pattern.svg);
+        position: relative;
+        top: 4em;
+        left: 4.5em;
+    }
+    
+    .sabtenam {
+        align-self: flex-end;
+        color: white;
+        text-decoration: none;
+        padding: 0.5em;
+        background-color: #fd6746;
+        border-radius: 0.5em;
+    }
+    
+    .moshavere {
+        align-self: flex-end;
+        padding: .5em;
+        text-decoration: none;
+        color: #fd6746;
+        background-color: white;
+        border: 1px solid #fd6746;
+        border-radius: .5em;
+    }
+    
+    .sabtenam:hover,
+    .moshavere:hover {
+        text-decoration: none;
+        color: black;
+        background-color: #fd6746;
+        font-weight: bold;
+    }
+    
+    .middle {
+        text-align: center;
+        margin: 3em auto;
+    }
+    
+    .card1 img {
+        width: 40%;
+        height: auto;
+        margin: 2em 0;
+    }
+    
+    .card {
+        border: none;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        gap: 1em 1em;
+    }
+    
+    .card1 {
+        display: flex;
+        flex-flow: column wrap;
+        padding: .5em 1em;
+        flex-basis: 250px;
+    }
+    
+    .card1 p,
+    .card2 p {
+        color: rgb(140, 140, 140);
+        line-height: 2em;
+        font-size: small;
+    }
+    
+    .card1 h4,
+    .card2 h4 {
+        color: black;
+        font-size: small;
+    }
+    
+    .card1:hover {
+        transition: .5s ease;
+        box-shadow: 0 5px 5px 0 lightgray;
+        color: rgb(42, 42, 42);
+    }
+    
+    .pool {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-content: space-around;
+        align-items: center;
+    }
+    
+    .card2 {
+        background: url(./Pattern.svg);
+        background-repeat: no-repeat;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        flex-basis: 200px;
+        align-content: space-around;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .card2 img {
+        width: 150px;
+        height: 150px;
+        border-radius: 50% 50%;
+    }
+    
+    .card2::before {
+        content: "";
+        background-color: #fd6746;
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        position: relative;
+        bottom: -20px;
+        left: 50px;
+        z-index: 1;
+    }
+    
+    .card2::after {
+        content: "";
+        background-color: #f8f9fa;
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        position: relative;
+        bottom: 244px;
+        left: 50px;
+        z-index: 2;
+    }
+    
+    .soalat {
+        flex-flow: column nowrap;
+        justify-content: space-around;
+    }
+    
+    .plus-sign {
+        color: red;
+        padding: 1em;
+    }
+    
+    .soal p {
+        position: relative;
+        display: inline-block;
+    }
+    
+    .javab {
+        display: none;
+        position: absolute;
+        z-index: 1;
+        border-right: 2px solid red;
+        padding-right: 2em;
+        margin-right: 6em;
+    }
+    
+    .javab p {
+        margin: 0;
+    }
+    
+    .soal p:hover {
+        cursor: grab;
+    }
+    
+    .soal p:hover .javab {
+        display: block;
+    }
+    
+    .package {
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    .pack {
+        background-color: white;
+        padding: 1em;
+        margin: 1em;
+        border: 1px solid #fd684625;
+        border-radius: 10px;
+        display: flex;
+        flex-flow: column nowrap;
+        flex-basis: 250px;
+        justify-content: center;
+        row-gap: 1em;
+        text-align: right;
+    }
+    
+    .pack:hover {
+        z-index: 3;
+        box-shadow: 0px 0px 20px 0px #fd6746;
+    }
+    
+    .pack-3m {
+        align-self: flex-start;
+    }
+    
+    .pack-6m {
+        z-index: 1;
+        position: absolute;
+        width: 300px;
+        box-shadow: 0px 0px 20px 0px #fd6746;
+    }
+    
+    .pack-1y {
+        align-self: flex-end;
+    }
+    
+    .kharid {
+        text-decoration: none;
+        align-self: flex-end;
+        width: fit-content;
+        border: 1px solid #fd6846;
+        border-radius: 20%;
+        padding: 1em;
+        margin-top: 2em;
+        color: #fd6746;
+        background-color: white;
+    }
+    
+    .pack-6m .kharid {
+        color: white;
+        background-color: #fd6746;
+    }
+    
+    .kharid:hover {
+        text-decoration: none;
+        background-color: #fd684679;
+        color: white;
+    }
+    
+    .mablagh {
+        padding: 1em;
+        font-weight: bolder;
+        font-size: x-large;
+        color: #fd6746;
+    }
+    
+    .tooman {
+        background-color: #c9c1c1;
+        color: #f8f9fa;
+        border-radius: 24%;
+        padding: .5em;
+    }
+    
+    .tooman-img {
+        width: 25px;
+        height: 30px;
+        border-radius: 25%;
+        background-color: #878080;
+    }
