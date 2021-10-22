@@ -6,6 +6,31 @@
     * {
         box-sizing: border-box;
     }
+    /* @font-face {
+        font-family: '[set]Foundicons';
+        src: url('fonts/[set]_foundicons.eot');
+        src: url('fonts/[set]_foundicons.eot?#iefix') format('embedded-opentype'), url('fonts/[set]_foundicons.woff') format('woff'), url('fonts/[set]_foundicons.ttf') format('truetype'), url('fonts/[set]_foundicons.svg#[set]Foundicons') format('svg');
+        font-weight: normal;
+        font-style: normal;
+    }
+    
+    [class*="foundicon-"] {
+        display: inline;
+        width: auto;
+        height: auto;
+        line-height: inherit;
+        vertical-align: baseline;
+        background-image: none;
+        background-position: 0 0;
+        background-repeat: repeat;
+    }
+    
+    [class*="foundicon-"]:before {
+        font-family: "[set]Foundicons";
+        font-weight: normal;
+        font-style: normal;
+        text-decoration: inherit;
+    } */
     
     .container {
         width: 85vw;
@@ -119,7 +144,9 @@
     }
     
     .card1 p,
-    .card2 p {
+    .card2 p,
+    .barresi-r p,
+    .footer-r p {
         color: rgb(140, 140, 140);
         line-height: 2em;
         font-size: small;
@@ -245,7 +272,7 @@
     
     .pack:hover {
         z-index: 3;
-        box-shadow: 0px 0px 20px 0px #fd6746;
+        box-shadow: 0px 0px 20px 0px #efd2cc;
     }
     
     .pack-3m {
@@ -256,7 +283,7 @@
         z-index: 1;
         position: absolute;
         width: 300px;
-        box-shadow: 0px 0px 20px 0px #fd6746;
+        box-shadow: 0px 0px 20px 0px #efd2cc;
     }
     
     .pack-1y {
@@ -268,8 +295,8 @@
         align-self: flex-end;
         width: fit-content;
         border: 1px solid #fd6846;
-        border-radius: 20%;
-        padding: 1em;
+        border-radius: 10%;
+        padding: .5em 3em;
         margin-top: 2em;
         color: #fd6746;
         background-color: white;
@@ -305,4 +332,169 @@
         height: 30px;
         border-radius: 25%;
         background-color: #878080;
+    }
+    
+    .barresi {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-content: space-between;
+        justify-content: center;
+        align-items: center;
+        gap: 1em 4em;
+    }
+    
+    .barresi-r {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: space-around;
+        justify-content: space-around;
+        align-items: flex-start;
+        flex-basis: 400px;
+    }
+    
+    .barresi-l {
+        display: flex;
+        flex-basis: 300px;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+        align-items: flex-start;
+        text-align: left;
+    }
+    
+    .barresi-l::before {
+        content: url(./dotsBig.svg);
+        position: relative;
+        top: 50px;
+        right: -10%;
+    }
+    
+    .form-barresi {
+        padding: 2em;
+        background-color: white;
+        border: 1px solid snow;
+        box-shadow: 0px 0px 10px 5px #f5f1ea;
+    }
+    /*     
+    .form-barresi::after {
+        content: url(./Pattern2.svg);
+        position: absolute;
+    }
+    
+    .form-barresi::before {
+        content: "";
+        width: 200px;
+        height: 300px;
+        position: absolute;
+        border-radius: 20% 70%;
+        background-color: #fd6746;
+        z-index: -1;
+    } */
+    
+    .ersal-form {
+        padding: .5em 1em;
+        background-color: #fd6746;
+        color: white;
+        border-radius: 10%;
+    }
+    /* .form-barresi::before {
+        content: none;
+        background-color: #fd6746;
+        width: 200px;
+        height: 300px;
+    } */
+    
+    .app {
+        margin: 5em 0;
+        height: 40vh;
+        display: flex;
+        background-color: #fd6846;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+        row-gap: 2em;
+    }
+    
+    .app h4 {
+        color: white;
+    }
+    
+    .app a {
+        transition: .3s ease;
+        text-decoration: none;
+        padding: .25em 1em;
+        border-radius: 10%;
+        color: white;
+        border: 1px solid white;
+    }
+    
+    .app a:hover {
+        text-decoration: none;
+        color: white;
+        background-color: #df684e;
+    }
+    
+    .footer {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+        align-items: stretch;
+    }
+    
+    .footer-r {
+        flex-basis: 40vw;
+        padding: 0 2em;
+        border-left: 1px dashed #ddd7d7;
+    }
+    
+    .footer-r li {
+        font-weight: bolder;
+    }
+    
+    .footer-r li::marker {
+        color: #fd6746;
+    }
+    
+    .footer-r p {
+        padding-right: 2em;
+    }
+    
+    .footer-l {
+        display: flex;
+        flex-basis: 60vw;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        align-items: stretch;
+    }
+    
+    .ertebat {
+        display: flex;
+        width: 100%;
+        gap: 20em;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    
+    .ertebat p {
+        font-weight: bolder;
+    }
+    
+    .landin {
+        padding: 0 2em;
+        text-align: right;
+    }
+    
+    .landin p {
+        font-size: smaller;
+        color: rgb(140, 140, 140);
+        border-top: 1px dashed #ddd7d7
+    }
+    
+    .love {
+        color: red;
     }
