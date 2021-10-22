@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="75" height="75" viewBox="0 0 75 75">
+  <defs>
+    <style>
+      .cls-1 {
+        opacity: 0.196;
+      }
+
+      .cls-2 {
+        fill: #212936;
+      }
+    </style>
+  </defs>
+  <g id="Pattern" class="cls-1">
+    <circle id="Ellipse_436" data-name="Ellipse 436" class="cls-2" cx="1.5" cy="1.5" r="1.5" transform="translate(72 72)"/>
+    <circle id="Ellipse_451" data-name="Ellipse 451" class="cls-2" cx="1.5" cy="1.5" r="1.5" transform="translate(60 72)"/>
+    <circle id="Ellipse_437" data-name="Ellipse 437" class="cls-2" cx="1.5" cy="1.5" r="1.5" transform="translate(72 60)"/>
+    <circle id="Ellipse_452" data-name="Ellipse 452" class="cls-2" cx="1.5" cy="1.5" r="1.5" transform="translate(60 60)"/>
+    <circle id="Ellipse_438" data-name="Ellipse 438" class="cls-2" cx="1.5" cy="1.5" r="1.5" transform="translate(72 48)"/>
+    <circle id="Ellipse_453" data-name="Ellipse 453" class="cls-2" cx="1.5" cy="1.5" r="1.5" transform="translate(60 48)"/>
+    <circle id="Ellipse_439" data-name="Ellipse 439" class="cls-2" cx="1.5" cy="1.5" r="1.5" transform="translate(72 36)"/>
+    <circle id="Ellipse_454" data-name="Ellipse 454" class="cls-2" cx="1.5" cy="1.5" r="1.5" transform="translate(60 36)"/>
+    <circle id="Ellipse_440" data-name="Ellipse 440" class="cls-2" cx="1.5" cy="1.5" r="1.5" transform="translate(72 24)"/>
+    <circle id="Ellipse_455" data-name="Ellipse 455" class="cls-2" cx="1.5" cy="1.5" r="1.5" transform="translate(60 24)"/>
+    <circle id="Ellipse_586" data-name="Ellipse 586" class="cls-2" cx="1.5" cy="1.5" r="1.5" transform="translate(60 12)"/>
+    <circle id="Ellipse_591" data-name="Ellipse 591" class="cls-2" cx="1.5" cy="1.5" r="1.5" transform="translate(36 12)"/>
+    <circle id="Ellipse_594" data-name="Ellipse 594" class="cls-2" cx="1.5" cy="1.5" r="1.5" transform="translate(12 12)"/>
+    <circle id="Ellipse_597" data-name="Ellipse 597" class="cls-2" cx="1.5" cy="1.5" r="1.5" transform="translate(0 12)"/>
+    <circle id="Ellipse_587" data-name="Ellipse 587" class="cls-2" cx="1.5" cy="1.5" r="1.5" transform="translate(60)"/>
+    <circle id="Ellipse_589" data-name="Ellipse 589" class="cls-2" cx="1.5" cy="1.5" r="1.5" transform="translate(36)"/>
+    <circle id="Ellipse_595" data-name="Ellipse 595" class="cls-2" cx="1.5" cy="1.5" r="1.5" transform="translate(12)"/>
+    <circle id="Ellipse_598" data-name="Ellipse 598" class="cls-2" cx="1.5" cy="1.5" r="1.5"/>
+    <circle id="Ellipse_441" data-name="Ellipse 441" class="cls-2" cx="1.5" cy="1.5" r="1.5" transform="translate(72 12)"/>
+    <circle id="Ellipse_592" data-name="Ellipse 592" class="cls-2" cx="1.5" cy="1.5" r="1.5" transform="translate(48 12)"/>
+    <circle id="Ellipse_593" data-name="Ellipse 593" class="cls-2" cx="1.5" cy="1.5" r="1.5" transform="translate(24 12)"/>
+    <circle id="Ellipse_588" data-name="Ellipse 588" class="cls-2" cx="1.5" cy="1.5" r="1.5" transform="translate(72)"/>
+    <circle id="Ellipse_590" data-name="Ellipse 590" class="cls-2" cx="1.5" cy="1.5" r="1.5" transform="translate(48)"/>
+    <circle id="Ellipse_596" data-name="Ellipse 596" class="cls-2" cx="1.5" cy="1.5" r="1.5" transform="translate(24)"/>
+  </g>
+</svg>
